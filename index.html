@@ -1,0 +1,208 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AnimaMídia 2000 - Aprenda Stop Motion!</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<div class="wrap">
+
+    <header>
+        <h1>★ AnimaMídia 2000 ★</h1>
+        <p>Animação em Sistemas Multimídia &bull; Foco: Stop Motion</p>
+    </header>
+
+    <marquee>Bem-vindo(a) ao nosso software educacional! Escolha uma seção e comece por onde quiser! :) ;)</marquee>
+
+    <div class="win">
+        <div class="bar">
+            <span>Menu Principal</span>
+            <b>X</b>
+        </div>
+
+        <div class="body">
+            <p class="menu-intro">Clique em uma opção. <b>Você escolhe a ordem!</b></p>
+
+            <div class="menu">
+                <button class="btn c1" data-section="s1">
+                    <span class="n">🎨</span>1. O que é Animação?
+                </button>
+
+                <button class="btn c2" data-section="s2">
+                    <span class="n">🎬</span>2. Tipos de Animação
+                </button>
+
+                <button class="btn c3" data-section="s3">
+                    <span class="n">📷</span>3. Tutorial Prático
+                </button>
+
+                <button class="btn c4" data-section="s4">
+                    <span class="n">❓</span>4. Quiz Interativo
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <section id="s1">
+        <div class="win">
+            <div class="bar">
+                <span>O que é Animação?</span>
+                <b>X</b>
+            </div>
+
+            <div class="body">
+                <h2>O que é Animação?</h2>
+
+                <div class="grid">
+                    <div>
+                        <p><b>Animação</b> é a técnica de criar a ilusão de movimento exibindo uma sequência de imagens estáticas em alta velocidade.</p>
+
+                        <p>Isso funciona por causa da <b>persistência da visão</b>: nosso cérebro “junta” imagens que aparecem rapidamente, uns <b>12 a 30 quadros por segundo</b>.</p>
+
+                        <p>Em <b>sistemas multimídia</b>, a animação é um recurso que une texto, imagem, áudio e vídeo para explicar, entreter e dar vida às interfaces.</p>
+                    </div>
+
+                    <div class="card image-card">
+                        <img src="img/animacao.svg" alt="Ilustração sobre animação">
+                        <small>Ilustração: animação quadro a quadro.</small>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h3>Narração em áudio</h3>
+
+                    <audio id="aud" controls>
+                        <source src="audio/audio.m4a" type="audio/mp4">
+                        Seu navegador não suporta áudio.
+                    </audio>
+                </div>
+
+                <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="s2">
+        <div class="win">
+            <div class="bar">
+                <span>Tipos de Animação</span>
+                <b>X</b>
+            </div>
+
+            <div class="body">
+                <h2>Tipos de Animação</h2>
+
+                <div class="ph v">
+                    🎥 COLOQUE AQUI O VÍDEO EXPLICATIVO<br>
+                    (2D, 3D e Stop Motion)<br>
+                    &lt;video controls src="video/tipos.mp4"&gt;
+                </div>
+
+                <div class="grid">
+                    <div class="card">
+                        <h3>Animação 2D</h3>
+                        Desenhos em plano, feitos à mão ou no computador. Ex.: desenhos clássicos.
+                    </div>
+
+                    <div class="card">
+                        <h3>Animação 3D</h3>
+                        Modelos digitais com volume, luz e câmera virtual, criados em software.
+                    </div>
+
+                    <div class="card">
+                        <h3>Stop Motion</h3>
+                        Objetos reais fotografados quadro a quadro, movendo-os um pouquinho a cada foto.
+                    </div>
+                </div>
+
+                <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="s3">
+        <div class="win">
+            <div class="bar">
+                <span>Tutorial Prático</span>
+                <b>X</b>
+            </div>
+
+            <div class="body">
+                <h2>Tutorial: faça seu Stop Motion!</h2>
+
+                <div class="step">
+                    <div class="num">1</div>
+                    <div>
+                        <b>Planeje a história</b> e desenhe um storyboard simples.
+                        <div class="ph step-image">📷 COLOQUE AQUI A FOTO DO PASSO 1</div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="num">2</div>
+                    <div>
+                        <b>Monte o cenário</b> e prenda a câmera/celular em um tripé fixo.
+                        <div class="ph step-image">📷 COLOQUE AQUI A FOTO DO PASSO 2</div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="num">3</div>
+                    <div>
+                        <b>Fotografe</b>, mova o objeto um pouquinho e fotografe de novo. Repita!
+                        <div class="ph step-image">📷 COLOQUE AQUI A FOTO DO PASSO 3</div>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="num">4</div>
+                    <div>
+                        <b>Junte as fotos</b> em um editor de vídeo (12 fps é um bom começo) e adicione som.
+                        <div class="ph step-image">📷 COLOQUE AQUI A FOTO DO PASSO 4</div>
+                    </div>
+                </div>
+
+                <h2>Nossa animação original</h2>
+
+                <div class="ph v">
+                    🎥 COLOQUE AQUI O VÍDEO STOP MOTION CRIADO PELO GRUPO<br>
+                    &lt;video controls src="video/stopmotion-grupo.mp4"&gt;
+                </div>
+
+                <p>
+                    <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="s4">
+        <div class="win">
+            <div class="bar">
+                <span>Quiz Interativo</span>
+                <b>X</b>
+            </div>
+
+            <div class="body">
+                <h2>Quiz: 5 perguntas sorteadas!</h2>
+
+                <div class="prog">
+                    <i id="pb"></i>
+                </div>
+
+                <div id="quiz"></div>
+
+                <p>
+                    <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
+                </p>
+            </div>
+        </div>
+    </section>
+
+</div>
+</body>
+</html>
