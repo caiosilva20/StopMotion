@@ -208,11 +208,6 @@ h2 {
     display: block;
 }
 
-audio {
-    width: 100%;
-    margin: 6px 0;
-}
-
 .step {
     display: grid;
     grid-template-columns: 60px 1fr;

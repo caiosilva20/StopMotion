@@ -30,19 +30,6 @@ document.addEventListener("click", event => {
     }
 });
 
-/* a narração */
-
-function narrar() {
-    speechSynthesis.cancel();
-
-    const u = new SpeechSynthesisUtterance(
-        "Animação é a técnica de criar a ilusão de movimento exibindo imagens estáticas em sequência rápida. Isso acontece graças à persistência da visão."
-    );
-
-    u.lang = "pt-BR";
-    speechSynthesis.speak(u);
-}
-
 /* banco de perguntas */
 
 const banco = [
