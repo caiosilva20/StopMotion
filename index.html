@@ -72,42 +72,13 @@
                     </div>
                 </div>
 
-                <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
-            </div>
-        </div>
-    </section>
+                <div class="card">
+                    <h3>Narração em áudio</h3>
 
-    <section id="s2">
-        <div class="win">
-            <div class="bar">
-                <span>Tipos de Animação</span>
-                <b>X</b>
-            </div>
-
-            <div class="body">
-                <h2>Tipos de Animação</h2>
-
-                <div class="ph v">
-                    🎥 COLOQUE AQUI O VÍDEO EXPLICATIVO<br>
-                    (2D, 3D e Stop Motion)<br>
-                    &lt;video controls src="video/tipos.mp4"&gt;
-                </div>
-
-                <div class="grid">
-                    <div class="card">
-                        <h3>Animação 2D</h3>
-                        Desenhos em plano, feitos à mão ou no computador. Ex.: desenhos clássicos.
-                    </div>
-
-                    <div class="card">
-                        <h3>Animação 3D</h3>
-                        Modelos digitais com volume, luz e câmera virtual, criados em software.
-                    </div>
-
-                    <div class="card">
-                        <h3>Stop Motion</h3>
-                        Objetos reais fotografados quadro a quadro, movendo-os um pouquinho a cada foto.
-                    </div>
+                    <audio id="aud" controls>
+                        <source src="audio/audio.m4a" type="audio/mp4">
+                        Seu navegador não suporta áudio.
+                    </audio>
                 </div>
 
                 <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
@@ -115,7 +86,47 @@
         </div>
     </section>
 
-    <section id="s3">
+
+<section id="s2">
+    <div class="win">
+        <div class="bar">
+            <span>Tipos de Animação</span>
+            <b>X</b>
+        </div>
+
+        <div class="body">
+            <h2>Tipos de Animação</h2>
+
+            <div class="video-container">
+                <video controls preload="metadata" playsinline>
+                    <source src="../StopMotion/animationtypes/TiposDeAnimacao.MOV" type="video/mp4">
+                    Seu navegador não suporta vídeos.
+                </video>
+            </div>
+
+            <div class="grid">
+                <div class="card">
+                    <h3>Animação 2D</h3>
+                    Desenhos em plano, feitos à mão ou no computador. Ex.: desenhos clássicos.
+                </div>
+
+                <div class="card">
+                    <h3>Animação 3D</h3>
+                    Modelos digitais com volume, luz e câmera virtual, criados em software.
+                </div>
+
+                <div class="card">
+                    <h3>Stop Motion</h3>
+                    Objetos reais fotografados quadro a quadro, movendo-os um pouquinho a cada foto.
+                </div>
+            </div>
+
+            <button class="btn small" data-section="menu">⬅ Voltar ao menu</button>
+        </div>
+    </div>
+</section>
+
+      <section id="s3">
         <div class="win">
             <div class="bar">
                 <span>Tutorial Prático</span>
